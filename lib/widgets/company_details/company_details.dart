@@ -24,11 +24,12 @@ class CompanyDetails extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              "Bloc.io - Smart(er) Contracts for Cardano",
+              "TEST",
               style: TextStyle(
                   fontWeight: FontWeight.w800,
                   height: 0.9,
-                  fontSize: titleSize),
+                  fontSize: titleSize,
+                  color: Colors.blue[900]),
               textAlign: textAlignment,
             ),
             SizedBox(
@@ -36,7 +37,11 @@ class CompanyDetails extends StatelessWidget {
             ),
             Text(
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur odio at mattis vehicula. Praesent pellentesque enim non molestie tristique. Fusce lobortis, nisl vitae tincidunt rhoncus, tellus dolor aliquam velit, et sollicitudin diam ligula non dolor. In pharetra augue et enim sodales vulputate. Sed placerat feugiat leo, at luctus diam. Duis elementum, libero ultricies tempus porta, massa sem porttitor nisl, sed placerat dui dui sit amet leo. Phasellus viverra commodo auctor. Nulla vitae elementum sapien, sit amet finibus elit.",
-              style: TextStyle(fontSize: descriptionSize, height: 1.7),
+              style: TextStyle(
+                fontSize: descriptionSize,
+                height: 1.7,
+                color: Colors.white,
+              ),
               textAlign: textAlignment,
             ),
           ],

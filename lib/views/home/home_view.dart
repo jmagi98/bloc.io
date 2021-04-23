@@ -16,17 +16,22 @@ class HomeView extends StatelessWidget {
         drawer: sizingInformation.deviceScreenType == DeviceScreenType.mobile
             ? NavigationDrawer()
             : null,
-        backgroundColor: Colors.white,
-        body: CenteredView(
-          child: Column(
-            children: [
-              NavigationBar(),
-              Expanded(
-                  child: ScreenTypeLayout(
-                desktop: HomeContentDesktop(),
-                mobile: HomeContentMobile(),
-              ))
-            ],
+        backgroundColor: Colors.transparent,
+        body: Container(
+          decoration: BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('background.jpeg'), fit: BoxFit.cover)),
+          child: CenteredView(
+            child: Column(
+              children: [
+                NavigationBar(),
+                Expanded(
+                    child: ScreenTypeLayout(
+                  desktop: HomeContentDesktop(),
+                  mobile: HomeContentMobile(),
+                ))
+              ],
+            ),
           ),
         ),
       ),
