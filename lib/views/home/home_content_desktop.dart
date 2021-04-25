@@ -6,14 +6,18 @@ class HomeContentDesktop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Row(
+      child: Column(
         children: [
+          SizedBox(
+            height: 200,
+          ),
           CompanyDetails(),
-          Expanded(
-            child: Center(
-              child: CallToAction('Test Action'),
-            ),
-          )
+          SizedBox(
+            height: 60,
+          ),
+          Center(
+            child: CallToAction('Test Action'),
+          ),
         ],
       ),
     );

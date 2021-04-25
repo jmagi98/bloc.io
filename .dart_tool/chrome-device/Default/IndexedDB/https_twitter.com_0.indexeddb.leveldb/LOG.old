@@ -1,0 +1,6 @@
+2021/04/24-18:02:20.390 20a0f Creating DB /private/var/folders/wv/1lt3dzrs0rz_ysv3_qs_lmj80000gn/T/flutter_tools.uEMRyN/flutter_tools_chrome_device.Z1rpUD/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb since it was missing.
+2021/04/24-18:02:20.501 20a0f Reusing MANIFEST /private/var/folders/wv/1lt3dzrs0rz_ysv3_qs_lmj80000gn/T/flutter_tools.uEMRyN/flutter_tools_chrome_device.Z1rpUD/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/24-18:04:29.041 f32f Level-0 table #5: started
+2021/04/24-18:04:29.065 f32f Level-0 table #5: 1260 bytes OK
+2021/04/24-18:04:29.108 f32f Delete type=0 #3
+2021/04/24-18:04:29.109 f32f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

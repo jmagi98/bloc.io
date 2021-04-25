@@ -11,7 +11,9 @@ class CallToActionTabletDesktop extends StatelessWidget {
         child: Text(
           title,
           style: TextStyle(
-              fontSize: 18, fontWeight: FontWeight.w800, color: Colors.white),
+              fontSize: 18,
+              fontWeight: FontWeight.w800,
+              color: Colors.blueGrey[700]),
         ),
         decoration: BoxDecoration(
           color: primaryColor,

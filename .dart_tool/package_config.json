@@ -2,6 +2,12 @@
   "configVersion": 2,
   "packages": [
     {
+      "name": "animated_background",
+      "rootUri": "file:///usr/local/Caskroom/flutter/1.22.5/flutter/.pub-cache/hosted/pub.dartlang.org/animated_background-1.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "1.19"
+    },
+    {
       "name": "async",
       "rootUri": "file:///usr/local/Caskroom/flutter/1.22.5/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.5.0",
       "packageUri": "lib/",
@@ -146,7 +152,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-04-23T17:55:34.169562Z",
+  "generated": "2021-04-25T01:30:26.314367Z",
   "generator": "pub",
   "generatorVersion": "2.12.3"
 }

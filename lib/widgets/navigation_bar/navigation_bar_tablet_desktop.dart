@@ -14,11 +14,27 @@ class NavigationBarTabletDesktop extends StatelessWidget {
           Row(
             mainAxisSize: MainAxisSize.min,
             children: [
-              NavBarItem('Nav1'),
+              Container(
+                padding: EdgeInsets.all(5),
+                height: 50,
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(10),
+                    boxShadow: [
+                      BoxShadow(
+                          offset: Offset(0, -2),
+                          blurRadius: 30,
+                          color: Colors.black.withOpacity(.16))
+                    ]),
+              ),
+              SizedBox(
+                width: 15,
+              ),
+              NavBarItem('About Us'),
               SizedBox(
                 width: 60,
               ),
-              NavBarItem('Nav2')
+              NavBarItem('Team')
             ],
           )
         ],

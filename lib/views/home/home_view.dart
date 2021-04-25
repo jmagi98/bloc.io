@@ -29,7 +29,7 @@ class HomeView extends StatelessWidget {
                     child: ScreenTypeLayout(
                   desktop: HomeContentDesktop(),
                   mobile: HomeContentMobile(),
-                ))
+                )),
               ],
             ),
           ),
