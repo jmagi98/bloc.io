@@ -13,7 +13,7 @@ class HomeContentMobile extends StatelessWidget {
         SizedBox(
           height: 100,
         ),
-        CallToAction("Test CTA")
+        CallToAction("Learn More")
       ],
     );
   }

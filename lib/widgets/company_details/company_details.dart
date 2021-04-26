@@ -27,7 +27,7 @@ class CompanyDetails extends StatelessWidget {
               "Cardano Smart Contract Security Made Easy",
               style: TextStyle(
                   fontWeight: FontWeight.w600,
-                  height: 0.9,
+                  height: 1,
                   fontSize: titleSize,
                   color: Colors.white),
               textAlign: textAlignment,

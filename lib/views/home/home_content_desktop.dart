@@ -16,7 +16,7 @@ class HomeContentDesktop extends StatelessWidget {
             height: 60,
           ),
           Center(
-            child: CallToAction('Test Action'),
+            child: CallToAction('Learn More'),
           ),
         ],
       ),
